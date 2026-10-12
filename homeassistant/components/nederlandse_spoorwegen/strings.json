@@ -5,7 +5,7 @@
     },
     "error": {
       "already_configured": "This API key is already configured for another entry.",
-      "cannot_connect": "Could not connect to NS API. Check your API key.",
+      "cannot_connect": "Could not connect to Nederlands Spoorwegen Reisinformatie API. Check your API key.",
       "invalid_auth": "[%key:common::config_flow::error::invalid_api_key%]",
       "unknown": "[%key:common::config_flow::error::unknown%]"
     },
@@ -17,16 +17,16 @@
         "data_description": {
           "api_key": "[%key:component::nederlandse_spoorwegen::config::step::user::data_description::api_key%]"
         },
-        "description": "Update your Nederlandse Spoorwegen API key."
+        "description": "Update your Nederlandse Spoorwegen Reisinformatie API Key."
       },
       "user": {
         "data": {
           "api_key": "[%key:common::config_flow::data::api_key%]"
         },
         "data_description": {
-          "api_key": "Your NS API key."
+          "api_key": "Your NS Reisinformatie API key."
         },
-        "description": "Set up your Nederlandse Spoorwegen integration."
+        "description": "Log in to your account at https://apiportal.ns.nl and create a subscription for the \"NsApp\" product. Then copy one of the keys assigned to your subscription."
       }
     }
   },
